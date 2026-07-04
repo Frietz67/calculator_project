@@ -19,3 +19,6 @@ def sqrt(a):
     if a < 0:
         return "Error"
     return a ** 0.5
+
+def percentage(total, percent):
+    return (total * percent) / 100
