@@ -12,5 +12,5 @@ def div(a, b):
         return "Error"
     return a / b
 
-def check_zero(b):
-    return b == 0
+def power(base, exp):
+    return base ** exp
