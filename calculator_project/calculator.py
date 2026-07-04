@@ -14,3 +14,8 @@ def div(a, b):
 
 def power(base, exp):
     return base ** exp
+
+def sqrt(a):
+    if a < 0:
+        return "Error"
+    return a ** 0.5
